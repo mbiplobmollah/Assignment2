@@ -2,9 +2,60 @@
 
 .quicksand-font {
     font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
   }
 body{
     max-width: 1400px;
+    margin: 0 auto;
 }
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    border-radius: 12px;
+    background-color: orange;
+    color: white;
+    border: none ;
+}
+.center-nav li:nth-child(1) a{
+    color: orange;
+}
+.center-nav li:nth-child(2) a{
+    color: skyblue;
+}
+.center-nav li:nth-child(3) a{
+    color: #05D4DF;
+}
+.center-nav li:nth-child(4) a{
+    color: #5D58EF ;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.center-nav{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.center-nav a{
+    text-decoration: none;
+}
+
   
