@@ -44,7 +44,9 @@ body{
 .center-nav li:nth-child(4) a{
     color: #5D58EF ;
 }
-
+.menu{
+    display: none;
+}
 
 .navbar{
     display: flex;
@@ -92,5 +94,35 @@ body{
     border-radius: 12px;
     color: white;
     border: none;
+} 
+
+
+
+
+
+@media screen and (max-width:576px){
+     li ,.school, .nav-btn{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-right: 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        height: 400px;
+        width: 340px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-writing{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
 }
   
