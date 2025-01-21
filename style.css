@@ -286,6 +286,25 @@ body{
     .arrows{
         display: none;
     }
+    #box-1{
+        display: none;
+        margin: 0px;
+    }
+    .box-remain{
+        width: 100%;
+    }
+    .stories{
+        margin-bottom: -px;
+    }
+    .story-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* text-align: center; */
+        justify-items: center;
+    }
+    .story-section{
+        padding-top: 0px;
+    }
 
 
 }
