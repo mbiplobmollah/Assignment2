@@ -62,6 +62,12 @@ body{
 .center-nav a{
     text-decoration: none;
 }
+.line{
+   border: none;
+   height: 1px;
+   background-color: orange;
+   display: none;
+}
 
 .banner{
     align-items: center;
@@ -191,6 +197,9 @@ body{
     .menu{
         display: block;
         padding-right: 10px;
+    }
+    .line{
+        display: block;
     }
     .banner{
         flex-direction: column-reverse;
