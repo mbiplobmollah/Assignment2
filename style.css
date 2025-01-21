@@ -100,7 +100,7 @@ body{
     border-radius: 12px;
     color: white;
     border: none;
-} 
+}
 
 .card-container{
     justify-content: space-between;
@@ -185,6 +185,54 @@ body{
     border: none;
     color: white;
 }
+.all-story{
+    display: flex;
+    justify-content: center;
+}
+.stories{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+   
+}
+.box-remain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.story{
+  border-radius: 16px;
+  padding: 10px;
+  margin: 0px;
+}
+#box1{
+    margin: 0px 10px;
+}
+.story > img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+#box-1 > h3 {
+    font-size: 1.8rem;
+}
+#box-1 > p{
+    font-size: 1.2rem;
+}
+.story-btn{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+
+
 
 
 
@@ -220,8 +268,9 @@ body{
         flex-direction: column;
     }
     .card{
-        width: calc(100% - 80px);
+        width: calc(100% - 60px);
         margin: 0 auto;
+        padding: 10px;
     }
     .arrows{
         display: none;
