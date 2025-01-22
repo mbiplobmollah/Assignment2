@@ -244,7 +244,7 @@ body{
 
 .footer-container{
     justify-content: space-between;
-    padding: 100px;
+    padding: 80px 100px 80px 100px  ;
     margin: 0 auto;
 }
 .education{
@@ -350,7 +350,30 @@ body{
     .story-section{
         padding-top: 0px;
     }
-
+    .footer-container{
+        flex-direction: column;
+        padding: 0px;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    .education{
+        width: 90%;
+    }
+    .about li{
+        display: flex;
+    }
+    .about, .contact{
+        padding-left: 10px;
+    }
+    .curriculum{
+        font-size: 1.7rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    .stories{
+        font-size: 1.7rem;
+    }
 
 }
   
