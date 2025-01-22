@@ -317,6 +317,9 @@ body{
 .story-btn-date3{
     background-color: #5D58F0;
 }
+button:hover{
+    background-color: skyblue;
+}
 
 
 
