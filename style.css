@@ -416,6 +416,7 @@ button:hover{
     }
     .story-btn-date2,.story-btn-date3,.story-btn-date4,.story-btn-date5{
         font-size: 10px;
+        top: -8%;
     }
     .story-title{
         font-size: 13px;
