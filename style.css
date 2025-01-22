@@ -320,6 +320,10 @@ marquee{
 .story-btn-date3{
     background-color: #5D58F0;
 }
+.story-title{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
 button:hover{
     background-color: skyblue;
 }
@@ -413,13 +417,11 @@ button:hover{
     }
     .story-title{
         margin-top: 0px;
+        font-size: 13px;
     }
     .story-btn-date2,.story-btn-date3,.story-btn-date4,.story-btn-date5{
         font-size: 10px;
         top: -8%;
-    }
-    .story-title{
-        font-size: 13px;
     }
 
 }
