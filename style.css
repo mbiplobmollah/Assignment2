@@ -406,6 +406,9 @@ button:hover{
     .about, .contact{
         padding-left: 10px;
     }
+    .contact{
+        padding-bottom: 40px;
+    }
     .curriculum{
         font-size: 1.7rem;
         padding-top: 50px;
